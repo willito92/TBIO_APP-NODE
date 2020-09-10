@@ -1,0 +1,21 @@
+<div class="row">
+  <div class="col-md-4 mx-auto">
+      <div class="card">
+          <div class="card-header">
+              <h4>      Registro</h4>
+          </div>
+          <img src="/image/logo.png" class="rounded-circle mx-auto d-block m-4 logo" alt="">
+          <div class="card body">
+              <form action="/users/signup" method="POST">
+                <div class="form-group">
+                    <input type="text" class="form-control" name="nombre" placeholder="nombre" value="{{nombre}}">
+                    <input type="email" class="form-control" name="email" placeholder="email" value="{{email}}">
+                    <input type="password" class="form-control" name="password" placeholder="contraseña" value="{{contrasena}}">
+                    <input type="password" class="form-control" name="confirmar" placeholder="confirmar" value="{{confirmar}}">
+                </div>
+              <input type="submit" class="btn btn-primary btn-block">
+              </form>
+          </div>
+      </div>
+  </div>
+</div>

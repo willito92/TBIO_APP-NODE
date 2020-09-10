@@ -1,0 +1,7 @@
+#TBIO_APP
+
+## Enviroment variables
+
+*PORT
+*TBIO_APP_MONGODB_HOST=localhost
+*TBIO_APP_MONGODB_DATABASE=TBIO_APP
