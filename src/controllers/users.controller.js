@@ -71,6 +71,9 @@ usersCtrl.logout = (req, res) => {
 }
 
 
+usersCtrl.renderContrato = (req, res) => {
+    res.render('users/contrato');
+}
 
 
 
