@@ -1,10 +1,13 @@
 body {
-    background: red
-    
-    ;
+    background: red;
     
 }
 
 .logo{
-width: 30%
+width: 25%
 }
+
+.logonav{
+    width: 7%
+}
+
