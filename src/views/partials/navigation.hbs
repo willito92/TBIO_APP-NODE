@@ -1,7 +1,7 @@
 <div class="container">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-dark bg-dark">
-       <img src="/image/logo.png" class="rounded-circle mx-auto d-block  m-10 logonav" alt="">
-        <a class="navbar-brand" href="#">Inicio</a>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="nav-brand "><img src="/image/logo.png" style="width:150px; height:50px;" alt="" class="logo"></div>
+        <a class="navbar-brand" href="/">Inicio</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
             aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -23,7 +23,7 @@
                 <li class="nav-item">
                     <a class="nav-link" href="/users/signup">Registro</a>
                 </li>
-                  {{#if user}}
+                {{#if user}}
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -34,7 +34,7 @@
                         <a class="dropdown-item" href="/recoleccion">Recoleccion</a>
                         <a class="dropdown-item" href="/users/contrato">Estado Contrato</a>
                         <a class="dropdown-item" href="/users/logout">Salir</a>
-                    {{/if}}
+                        {{/if}}
                     </div>
                 </li>
             </ul>
