@@ -13,7 +13,10 @@ datosCtrl.renderRecoForm= async(req, res) => {
    res.render('datos/all-datos', {datos});
 }
 
-
+datosCtrl.renderContractData= async(req, res) => {
+   const datos = await Dato.find({email: req.user.email, operacion: 'Contrato'}).lean().sort({operacion: 'desc'});
+   res.render('datos/all-datos', {datos});
+}
 
 
 module.exports= datosCtrl;

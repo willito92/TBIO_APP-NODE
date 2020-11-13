@@ -13,6 +13,14 @@ const DatoSchema= new Schema({
     email: {
         type: String,
         required: true
+    }, 
+    
+    monto:{
+        type: Number
+    },
+
+    fecha: {
+        type: Date
     }
 },
 {
