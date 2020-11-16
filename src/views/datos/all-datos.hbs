@@ -1,13 +1,25 @@
 
+<table class="table table-striped text-white">
+  <thead>
+    <tr>
+      <th scope="col">Operacion</th>
+      <th scope="col">Descripcion</th>
+      <th scope="col">Monto($)</th>
+      <th scope="col">Fecha</th>
+      
+    </tr>
+  </thead>
+  {{#each datos}}
+  <tbody>
+     
+    <tr>
+      <th scope="row">{{operacion}}</th>
+      <th scope="row">{{descripcion}}</th>
+      <th scope="row">{{monto}}</th>
+      <th scope="row">{{fecha}}</th>
+     </tr>
+  
 
-<div class="row">
-    {{#each datos}}
-    <div class="col-md-12">
-        <div class="card">
-            <div class="card-header">
-                <h8>{{operacion}}</h8>  {{descripcion}} {{monto}} {{fecha}}
-            </div>
-        </div>
-    </div>
-    {{/each}}
-</div>
+  </tbody>
+  {{/each}}
+</table>
