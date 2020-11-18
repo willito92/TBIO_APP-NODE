@@ -1,5 +1,6 @@
 body {
     background: green;
+    color: white;
     
 }
 
@@ -121,13 +122,13 @@ width: 45%
 .cards-banner-two {
   width: 100%;
   height: 350px;
-  background: url("/image/enviroment.jpg") no-repeat center center/cover;
+  background: url("https://images.pexels.com/photos/5669619/pexels-photo-5669619.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260") no-repeat center center/cover;
 }
 
 .cards-banner-two .content {
-  width: 50%;
-  padding: 100px 0 0 30px;
-  color: white;
+  width: 40%;
+  padding: 90px 0 0 30px;
+  color: black;
 }
 
 /* Follow */

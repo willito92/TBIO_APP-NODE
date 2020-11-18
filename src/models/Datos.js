@@ -21,7 +21,12 @@ const DatoSchema= new Schema({
 
     fecha: {
         type: Date
+    },
+    
+    estado: {
+        type: String
     }
+    
 },
 {
     timestamps: true
