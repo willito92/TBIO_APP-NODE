@@ -21,4 +21,13 @@ indexCtrl.renderCategories=(req, res)=>{
     res.render('categories')
 };
 
+indexCtrl.renderRespon=(req, res)=>{
+    res.render('responsabilities')
+};
+
+indexCtrl.renderLaw=(req, res)=>{
+    res.render('law')
+};
+
+
 module.exports= indexCtrl;
