@@ -1,8 +1,9 @@
 body {
-    background: green;
-    color: white;
+    background: white;
+    color:black;
     
 }
+
 
 .logo{
 width: 45%
@@ -28,9 +29,9 @@ width: 45%
     font-weight: bold;
     padding: 10px 20px;
     background:green;
-    color: #fff;
+    color:black;
     font-size: 15px;
-    border: 1px solid #fff;
+    border: 1px solid green;
   }
   
   .btn:hover {
@@ -55,7 +56,7 @@ width: 45%
   .showcase h2,
   .showcase p {
     margin-bottom: 10px;
-    color:white;
+    color:black;
     font-weight: bold;
 
 
@@ -84,19 +85,19 @@ width: 45%
   .news-cards h3 {
     font-size: 20px;
     margin: 10px 0;
-    color: white
+    color:black
   }
   
   .news-cards a {
     padding: 10px 0;
-    color: #f2f2f2;
+    color:black;
     text-transform: uppercase;
     display: inline-block;
     font-weight: bold;
   }
 
   .news-cards p {
-      color: white
+      color: black
   }
 
   /* CARDS BANNER ONE */
@@ -110,7 +111,7 @@ width: 45%
   .cards-banner-one .content {
     width: 40%;
     padding: 90px 0 0 30px;
-    color: #fff;
+    color: black;
   }
   
   .cards-banner-one p,
@@ -139,7 +140,7 @@ width: 45%
   text-align: center;
   font-size: 30px;
   margin-bottom: 20px;
-  color:white;
+  color:black;
 }
 .links {
   display: flex;
@@ -157,10 +158,11 @@ width: 45%
 
 }
 
+
 /* Links */
 .footer-links {
-  background:green;
-  color: white;
+  background:rgb(191, 211, 191);
+  color: black;
   font-size: 12px;
   padding: 35px 0;
 }
@@ -179,7 +181,7 @@ width: 45%
 
 .footer-links li a {
   line-height: 2.8;
-  color: white;
+  color: black;
   
 }
 
@@ -266,6 +268,46 @@ width: 45%
   .footer-links .footer-container ul {
     text-align: center;
   }
+
+  .btn-whatsapp {
+    display:block;
+    width:70px;
+    height:70px;
+    color#fff;
+    position: fixed;
+    right:20px;
+    bottom:20px;
+    border-radius:50%;
+    line-height:80px;
+    text-align:center;
+    z-index:999;
+}
+
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+.float:hover {
+	text-decoration: none;
+	color: #25d366;
+  background-color:#fff;
+}
+
+.my-float{
+	margin-top:16px;
+}
+
+
 }
 
 

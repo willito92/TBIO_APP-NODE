@@ -29,5 +29,8 @@ indexCtrl.renderLaw=(req, res)=>{
     res.render('law')
 };
 
+indexCtrl.renderMsgSent=(req, res)=>{
+    res.render('scsent')
+};
 
 module.exports= indexCtrl;

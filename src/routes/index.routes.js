@@ -1,6 +1,6 @@
 const {Router}= require('express');
 const router = Router();
-const{renderIndex, renderAbout, renderDefinitions, renderMng, renderCategories, renderRespon, renderLaw}= require('../controllers/index.controller')
+const{renderIndex, renderAbout, renderDefinitions, renderMng, renderCategories, renderRespon, renderLaw, renderMsgSent}= require('../controllers/index.controller')
 
 
 router.get('/', renderIndex)
@@ -16,6 +16,8 @@ router.get('/categories', renderCategories)
 router.get('/responsabilities', renderRespon)
 
 router.get('/law', renderLaw)
+
+router.get('/scsent', renderMsgSent)
 
 
 
