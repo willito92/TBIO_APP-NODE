@@ -111,7 +111,7 @@ width: 45%
   .cards-banner-one .content {
     width: 40%;
     padding: 90px 0 0 30px;
-    color: black;
+    color:white;
   }
   
   .cards-banner-one p,
@@ -164,13 +164,13 @@ width: 45%
   background:rgb(191, 211, 191);
   color: black;
   font-size: 12px;
-  padding: 35px 0;
+  padding: 20px 0;
 }
 
 .footer-container {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 10px;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 3px;
   align-items: flex-start;
   justify-content: center;
 }

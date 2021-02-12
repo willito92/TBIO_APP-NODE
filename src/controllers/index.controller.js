@@ -33,4 +33,25 @@ indexCtrl.renderMsgSent=(req, res)=>{
     res.render('scsent')
 };
 
+indexCtrl.renderServices=(req, res)=>{
+    res.render('services')
+};
+
+indexCtrl.renderProducts=(req, res)=>{
+    res.render('products')
+};
+
+indexCtrl.renderGridinfo=(req, res)=>{
+    res.render('cvalor')
+};
+
+indexCtrl.renderGridinfo2=(req, res)=>{
+    res.render('docinfo')
+};
+
+
+
+
+
+
 module.exports= indexCtrl;
