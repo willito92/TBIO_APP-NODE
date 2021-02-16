@@ -55,9 +55,12 @@ width: 45%
   }
   .showcase h2,
   .showcase p {
-    margin-bottom: -7px;
+    margin: auto;
+    padding: 5px;
     color:white;
-    font-weight: bold;
+    text-align: center;
+    align-items:center;
+    font-size: 1.6vw;
 
 
     
