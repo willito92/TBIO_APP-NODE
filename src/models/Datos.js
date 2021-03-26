@@ -23,7 +23,7 @@ const DatoSchema= new Schema({
         type: Date
     },
     
-    estado: {
+    nombre: {
         type: String
     }
     
