@@ -25,6 +25,10 @@ const DatoSchema= new Schema({
     
     nombre: {
         type: String
+    },
+
+    codigo: {
+        type: String
     }
     
 },

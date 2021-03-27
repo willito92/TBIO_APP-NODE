@@ -1,24 +1,27 @@
 
+  {{#if user}}
+BIENVENIDO
+{{/if}}
+
 <table class="table table-striped">
   <thead>
 
     <tr>
       <th scope="col">Cliente</th>
+      <th scope="col">Codigo</th>
       <th scope="col">Descripcion</th>
-      <th scope="col">Monto($)</th>
      
       
     </tr>
   </thead>
   {{#each datos}}
-Bienvenido      {{nombre}}
+
 
   <tbody>
-     
     <tr>
       <th scope="row">{{nombre}}</th>
+      <th scope="row">{{codigo}}</th>
       <th scope="row">{{descripcion}}</th>
-      <th scope="row">{{monto}}</th>
 
      </tr>
   
